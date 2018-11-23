@@ -1,0 +1,171 @@
+
+body{
+    font: 13px/1.5 'Open Sans', sans-serif;
+}
+/*====navigation=======*/
+.navbar{
+    padding: 20px 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #414141;
+}
+
+/*====jumbotron=======*/
+
+.jumbotron{
+    background-image: url('../images/banner1.png');
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+    margin: 0;
+}
+
+.jumbotron h2{
+    color:#f4f0f5;
+    margin-top: 190px;
+    margin-bottom: 30px;
+    font-size: 52px;
+    font-weight: lighter;
+    font-family: 'open sans';
+}
+
+.input-group{
+    width: 450px;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 0!important;
+}
+
+.form-control{
+    height: 52px;
+    border-radius: 0;
+    text-indent: 10px;
+    border: none;
+}
+
+.input-group-text{
+    background-color: #fd4f32!important;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 14px 40px;
+    font-weight: 600;
+}
+
+/*==========cards==============*/
+
+h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #323232;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #323232;
+}
+
+p{
+    font-weight: normal;
+    color: #696969;
+}
+
+.cards{
+    background-color: #eeeeee;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.card-deck{
+    margin-top: 40px;
+}
+
+.card{
+    box-shadow: 0 2px #e1e0d8;
+    border-radius: 0;
+    border: none;
+}
+
+.card-img-top{
+    border-radius: 0;
+}
+
+figure{
+    position: relative;
+}
+
+.text{
+    color:#fff;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.display-3{
+    font-size: 52px;
+    font-weight: normal!important;
+}
+
+/*==========leave==============*/
+
+
+.leave .form-control{
+    background-color: #eeeeee;
+}
+
+.leave .input-group-text{
+    padding: 14px 30px;
+}
+
+.leave .card{
+    box-shadow: none!important;
+}
+
+.leave .container{
+    padding: 80px 0;
+}
+
+.leave .display-5{
+    margin-top: 75px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+footer{
+    background-color: #eeeeee!important;
+}
+
+footer #footerNav{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #323232;
+    font-family:'Montserrat', sans-serif;
+}
+
+h4 h5 h3{
+    font-family:'Montserrat', sans-serif;
+}
+
+
+/*============Media Query=================*/
+
+@media(min-width:320px) and (max-width: 767px){
+    .container{
+        padding: 0 16px!important;
+    }
+
+    .input-group{
+        width: 100%;
+        margin: auto;
+    }
+
+    footer{
+        margin-top: 70px;
+    }
+}
